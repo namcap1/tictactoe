@@ -1,0 +1,17 @@
+.tile {
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+}
+
+.board {
+    justify-content: center;
+    margin-left: 875px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.board-row {
+    display: flex;
+    flex-flow: row wrap;
+}

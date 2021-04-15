@@ -30,3 +30,11 @@ export function full(grid){
     }
     return false;
 }
+
+export const intialboard = {
+    xisNext : true,
+    grid: Array(9).fill(null),
+    history: [],
+    move: 1
+};
+
