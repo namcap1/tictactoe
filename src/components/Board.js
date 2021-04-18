@@ -79,7 +79,7 @@ class Board extends Component{
     }
 
     restart(){
-        this.setState(utils.intialboard);
+        window.location.reload(false);
     }
 
     backintime(move, index){
